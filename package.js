@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ccorcos:subs-cache',
+  name: 'lmachens:subs-cache',
   summary: 'A package for caching Meteor subscriptions.',
-  version: '0.9.3',
-  git: 'https://github.com/ccorcos/meteor-subs-cache'
+  version: '0.9.4',
+  git: 'https://github.com/lmachens/meteor-subs-cache'
 });
 
 Package.onUse(function(api) {

@@ -1,3 +1,8 @@
+# 0.9.4
+
+Added missing test dependencies.  
+Allow multiple subscription with same name [#44](https://github.com/ccorcos/meteor-subs-cache/issues/44)
+
 # 0.1.0
 
 Using onInvalidate instead of onStop because it makes much more sense. Suppose you have a global subscription like this:
