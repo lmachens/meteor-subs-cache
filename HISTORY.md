@@ -1,5 +1,6 @@
 # 0.9.5
 
+Fixed Meteor 1.6.1 test dependencies.
 Fix infinite expiration, cache replacement policy, debug messages [#46](https://github.com/ccorcos/meteor-subs-cache/pull/46)
 
 # 0.9.4

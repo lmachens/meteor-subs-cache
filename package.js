@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1');
+  api.versionsFrom('METEOR@1.6.1');
 
   api.use([
     'ecmascript@0.8.3',
@@ -30,10 +30,8 @@ Package.onTest(function(api) {
     'ejson',
     'tracker',
     'reactive-var',
-    'ccorcos:subs-cache',
     'practicalmeteor:chai',
-    'coffeescript@1.12.7_3',
-    'practicalmeteor:mocha@2.4.5_6'
+    'cultofcoders:mocha'
 	], ['client', 'server']);
   api.mainModule('src/SubsCache.tests.js');
 });
