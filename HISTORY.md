@@ -1,3 +1,7 @@
+# 0.9.5
+
+Fix infinite expiration, cache replacement policy, debug messages [#46](https://github.com/ccorcos/meteor-subs-cache/pull/46)
+
 # 0.9.4
 
 Added missing test dependencies.  
