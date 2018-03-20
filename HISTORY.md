@@ -1,3 +1,7 @@
+# 0.9.6
+
+Fixed the count when subscriptions restarted. Otherwise subscriptions never ended.
+
 # 0.9.5
 
 Fixed Meteor 1.6.1 test dependencies.
