@@ -1,3 +1,8 @@
+# 0.9.7
+
+Synced with upstream
+Fixed count issue [#2](https://github.com/lmachens/meteor-subs-cache/pull/2)
+
 # 0.9.6
 
 Fixed the count when subscriptions restarted. Otherwise subscriptions never ended.
